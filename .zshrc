@@ -214,7 +214,7 @@ alias l="eza -lah --icons=always --group-directories-first --git --color=always"
 
 # ---- Zoxide (better cd) ----
 eval "$(zoxide init zsh)"
-alias cd="z"
+# alias cd="z"
 
 # ---- Better aliases ----
 alias cat="bat --style=auto" 2>/dev/null || alias cat="cat"
