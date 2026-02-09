@@ -1,0 +1,106 @@
+{
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"prettier.singleQuote": true,
+	"prettier.useTabs": true,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"git.autofetch": true,
+	"gitlens.gitCommands.skipConfirmations": [
+		"fetch:command",
+		"stash-push:command",
+		"switch:command",
+		"push:command"
+	],
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.fontFamily": "'JetBrains Mono', 'Roboto Regular', 'Droid Sans Mono', 'monospace', monospace, 'Meslo NF'",
+	"editor.fontLigatures": true,
+	"editor.fontSize": 20,
+	"editor.fontWeight": "600",
+	"redhat.telemetry.enabled": false,
+	"[java]": {
+		"editor.defaultFormatter": "redhat.java"
+	},
+	"editor.linkedEditing": true,
+	"boot-java.rewrite.reconcile": true,
+	"[python]": {
+		"editor.formatOnType": true,
+		"editor.defaultFormatter": "ms-python.autopep8"
+	},
+	"explorer.confirmDelete": false,
+	"editor.accessibilitySupport": "off",
+	"liveServer.settings.donotShowInfoMsg": true,
+	"glassit.alpha": 225,
+	"[c]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"settingsSync.ignoredSettings": ["-java.configuration.runtimes"],
+	"github.copilot.enable": {
+		"*": true,
+		"plaintext": true,
+		"markdown": true,
+		"scminput": false,
+		"java": true,
+		"Log": false,
+		"javascriptreact": true,
+		"html": true,
+		"javascript": true
+	},
+	"workbench.tree.indent": 4,
+	"editor.tabSize": 1,
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.cursorStyle": "block",
+	"prettier.tabWidth": 1,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"[latex]": {
+		"editor.defaultFormatter": "James-Yu.latex-workshop"
+	},
+	"terminal.integrated.fontFamily": "'MesloLGS NF'",
+	"editor.lineHeight": 30,
+	"editor.mouseWheelZoom": true,
+	"editor.rulers": [
+		{
+			"color": "#c49350",
+			"column": 90
+		}
+	],
+	"editor.wordWrap": "on",
+	"editor.wordWrapColumn": 190,
+	"files.defaultLanguage": "markdown",
+	"workbench.startupEditor": "newUntitledFile",
+	"notebook.codeActionsOnSave": {
+		"source.fixAll": true,
+		"source.organizeImports": true
+	},
+	"editor.guides.indentation": false,
+	"java.configuration.runtimes": [],
+	"rapidapi.terminalLink.enabled": false,
+	"editor.minimap.maxColumn": 140,
+	"githubPullRequests.pullBranch": "never",
+	"chat.editor.fontSize": 20,
+	"java.completion.favoriteStaticMembers": [
+		"org.junit.Assert.*",
+		"org.junit.Assume.*",
+		"org.junit.jupiter.api.Assertions.*",
+		"org.junit.jupiter.api.Assumptions.*",
+		"org.junit.jupiter.api.DynamicContainer.*",
+		"org.junit.jupiter.api.DynamicTest.*",
+		"org.mockito.Mockito.*",
+		"org.mockito.ArgumentMatchers.*",
+		"org.mockito.Answers.*"
+	],
+	"workbench.colorCustomizations": {},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"svelte.enable-ts-plugin": true,
+	"prisma.showPrismaDataPlatformNotification": false,
+	"github.copilot.editor.enableAutoCompletions": true,
+	"supermaven.enableFixWithSupermaven": false,
+	"workbench.colorTheme": "Theme Darker",
+	"workbench.iconTheme": "vscode-icons",
+	"github.copilot.nextEditSuggestions.enabled": true
+}

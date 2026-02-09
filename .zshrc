@@ -128,7 +128,6 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 # [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# Added by SSH Manager
 export PATH="$PATH:$HOME/.local/bin"
 
 eval "$(starship init zsh)"
@@ -164,8 +163,6 @@ git_move_commit_to_new_branch() {
   echo "Done! Commit moved to new branch '$new_branch'"
   echo "You can now push with: git push -u origin $new_branch"
 }
-
-[[ "$TERM_PROGRAM" == "kiro" ]] && . "$(kiro --locate-shell-integration-path zsh)"
 
 eval "$(fzf --zsh)"
 
@@ -243,8 +240,12 @@ alias zshconfig="$EDITOR ~/.zshrc"
 alias starconfig="$EDITOR ~/.config/starship.toml"
 
 ### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
-export PATH="/Users/emergent/.rd/bin:$PATH"
+export PATH="$HOME/.rd/bin:$PATH"
 ### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
 
-# Added by Antigravity
-export PATH="/Users/emergent/.antigravity/antigravity/bin:$PATH"
+# bun completions
+[ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
