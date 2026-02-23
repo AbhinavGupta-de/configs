@@ -130,6 +130,9 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 
 export PATH="$PATH:$HOME/.local/bin"
 
+# Added by SSH Manager
+export PATH="$PATH:$HOME/bin"
+
 eval "$(starship init zsh)"
 
 # Git alias to move last commit to a new branch from origin/main

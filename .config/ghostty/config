@@ -1,0 +1,78 @@
+# Ghostty terminal configuration
+# Theme: Tokyo Night Moon (matches starship/fzf theme)
+
+# --- Font ---
+font-family = JetBrainsMono Nerd Font
+font-size = 14
+font-thicken = true
+adjust-cell-height = 2
+
+# --- Window ---
+window-padding-x = 12
+window-padding-y = 8
+window-decoration = true
+macos-titlebar-style = hidden
+window-save-state = always
+confirm-close-surface = false
+
+# --- macOS ---
+macos-option-as-alt = true
+
+# --- Cursor ---
+cursor-style = block
+cursor-style-blink = false
+shell-integration-features = no-cursor
+
+# --- Mouse ---
+mouse-hide-while-typing = true
+copy-on-select = clipboard
+
+# --- Clipboard ---
+clipboard-paste-protection = false
+
+# --- Tokyo Night Moon colors ---
+background = 222436
+foreground = c8d3f5
+
+# Normal colors
+palette = 0=#1b1d2b
+palette = 1=#ff757f
+palette = 2=#c3e88d
+palette = 3=#ffc777
+palette = 4=#82aaff
+palette = 5=#c099ff
+palette = 6=#86e1fc
+palette = 7=#828bb8
+
+# Bright colors
+palette = 8=#444a73
+palette = 9=#ff757f
+palette = 10=#c3e88d
+palette = 11=#ffc777
+palette = 12=#82aaff
+palette = 13=#c099ff
+palette = 14=#86e1fc
+palette = 15=#c8d3f5
+
+# Selection
+selection-background = 2f334d
+selection-foreground = c8d3f5
+
+# Window opacity
+background-opacity = 0.95
+
+# --- Tabs ---
+keybind = super+t=new_tab
+
+# --- Splits ---
+# Create splits (Cmd+Shift + vim keys)
+keybind = super+shift+h=new_split:left
+keybind = super+shift+l=new_split:right
+keybind = super+shift+j=new_split:down
+keybind = super+shift+k=new_split:up
+
+# Navigate splits (Ctrl + vim keys)
+keybind = ctrl+h=goto_split:left
+keybind = ctrl+l=goto_split:right
+keybind = ctrl+j=goto_split:bottom
+keybind = ctrl+k=goto_split:top
