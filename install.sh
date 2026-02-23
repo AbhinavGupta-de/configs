@@ -152,21 +152,7 @@ fi
 echo ""
 
 # ---------------------------------------------------------------------------
-# 7. Neovim (lazy.nvim)
-# ---------------------------------------------------------------------------
-echo "=== Neovim (lazy.nvim) ==="
-LAZY_DIR="${XDG_DATA_HOME:-$HOME/.local/share}/nvim/lazy/lazy.nvim"
-if [ -d "$LAZY_DIR" ]; then
-    echo "  [skip] lazy.nvim already installed"
-else
-    echo "  Installing lazy.nvim..."
-    git clone --filter=blob:none --branch=stable \
-        https://github.com/folke/lazy.nvim.git "$LAZY_DIR"
-fi
-echo ""
-
-# ---------------------------------------------------------------------------
-# 8. Symlinks
+# 7. Symlinks
 # ---------------------------------------------------------------------------
 echo "=== Shell configs ==="
 link_file "$DOTFILES_DIR/.zshrc" "$HOME/.zshrc"
@@ -240,6 +226,6 @@ echo ""
 echo "Remaining manual steps:"
 echo "  1. Edit ~/.gitconfig and set your name/email"
 echo "  2. Open vim and run :PlugInstall (if using vim plugins)"
-echo "  3. Open nvim - lazy.nvim will auto-install plugins on first launch"
+echo "  3. Open nvim - LazyVim will auto-install everything on first launch"
 echo "  4. Run: source ~/.zshrc"
 echo ""

@@ -217,6 +217,7 @@ eval "$(zoxide init zsh)"
 # alias cd="z"
 
 # ---- Better aliases ----
+alias vim="nvim"
 alias cat="bat --style=auto" 2>/dev/null || alias cat="cat"
 alias grep="rg" 2>/dev/null || alias grep="grep --color=auto"
 alias find="fd" 2>/dev/null || alias find="find"
